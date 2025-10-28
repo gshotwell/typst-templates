@@ -1,6 +1,6 @@
 # Modern CV Template for Quarto
 
-A modern, clean resume/CV and cover letter template for Quarto using Typst, inspired by the [modern-cv](https://github.com/DeveloperPaul123/modern-cv) Typst template and the Awesome-CV LaTeX template.
+A modern, clean resume/CV and cover letter template for Quarto using Typst, based on the [modern-cv](https://github.com/DeveloperPaul123/modern-cv) Typst template.
 
 
 ## Installation
