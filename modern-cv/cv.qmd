@@ -1,0 +1,163 @@
+---
+firstname: "Paul"
+lastname: "Atreides"
+email: "paul.atreides@arrakis.gov"
+phone: "(555) SPICE-01"
+github: "muaddib"
+linkedin: "paul-atreides"
+website: "https://kwisatzhaderach.net"
+address: "Sietch Tabr, Arrakis Desert, Arrakis System"
+positions:
+  - "Data Analyst"
+  - "Strategic Intelligence Specialist"
+format:
+  modern-cv-typst: default
+---
+
+# Experience
+
+```{=typst}
+#cv-entry(
+  title: "Strategic Data Analyst",
+  location: "Fremen Resistance Coalition",
+  date: "10191 - Present",
+  description: [
+    - Analyzed spice production patterns across 47 desert regions using prescient modeling
+    - Developed predictive algorithms for sandworm migration with 94% accuracy
+    - Led cross-functional teams of Fremen warriors and off-world analysts
+    - Technologies: R, Python, Holtzman Analytics Suite, Oracle Database
+  ]
+)
+
+#cv-entry(
+  title: "Intelligence Analyst",
+  location: "House Atreides",
+  date: "10189 - 10191",
+  description: [
+    - Conducted comprehensive analysis of Harkonnen military capabilities
+    - Built statistical models for resource allocation across multiple planets
+    - Collaborated with Mentat advisors to optimize strategic decision-making
+    - Improved intelligence gathering efficiency by 60% through data visualization
+  ]
+)
+
+#cv-entry(
+  title: "Junior Analyst",
+  location: "Caladan Planetary Council",
+  date: "10187 - 10189",
+  description: [
+    - Analyzed oceanic weather patterns and fishing yield optimization
+    - Maintained databases of inter-house trade relationships
+    - Participated in diplomatic briefings and statistical reporting
+    - Learned advanced statistical methods and prescient data techniques
+  ]
+)
+```
+
+# Education
+
+```{=typst}
+#cv-entry(
+  title: "Master of Science in Statistical Analysis",
+  location: "University of Ix",
+  date: "10185 - 10187",
+  description: [
+    - GPA: 4.0/4.0 (Summa Cum Laude)
+    - Relevant Coursework: Prescient Mathematics, Holtzman Statistical Theory, Interplanetary Economics
+    - Thesis: "Predictive Modeling of Spice Flow Dynamics in Desert Ecosystems"
+    - Recipient of the Kwisatz Haderach Academic Excellence Award
+  ]
+)
+
+#cv-entry(
+  title: "Bachelor of Arts in Strategic Studies",
+  location: "Caladan Military Academy",
+  date: "10181 - 10185",
+  description: [
+    - Graduated Valedictorian with highest honors
+    - Specialized in tactical analysis and resource optimization
+    - Captain of the Academy's strategic simulation team
+    - Completed advanced training in Mentat computational methods
+  ]
+)
+```
+
+# Skills
+
+```{=typst}
+#cv-skills((
+  (category: "Statistical Software", items: ("R", "Python", "SAS", "SPSS", "Holtzman Analytics")),
+  (category: "Data Analysis", items: ("Predictive Modeling", "Time Series Analysis", "Machine Learning", "Prescient Algorithms")),
+  (category: "Databases", items: ("Oracle", "PostgreSQL", "Spice Flow Database", "Guild Navigator Archives")),
+  (category: "Visualization", items: ("Tableau", "Power BI", "D3.js", "Holographic Projections")),
+  (category: "Specialized Skills", items: ("Mentat Training", "Desert Survival", "Fremen Combat", "Voice Command", "Prescience"))
+))
+```
+
+# Projects
+
+```{=typst}
+#cv-entry(
+  title: "Spice Production Optimization Model",
+  location: "Fremen Coalition Research",
+  date: "10192",
+  description: [
+    - Developed machine learning models to predict optimal spice harvesting locations
+    - Integrated sandworm behavioral patterns with geological survey data
+    - Increased spice yield efficiency by 340% while minimizing ecological disruption
+    - GitHub: #link("https://github.com/muaddib/spice-flow-analytics")
+  ]
+)
+
+#cv-entry(
+  title: "Interplanetary Trade Analysis Dashboard",
+  location: "Open Source Contribution",
+  date: "10191",
+  description: [
+    - Created comprehensive visualization platform for Guild Navigator trade routes
+    - Implemented real-time data feeds from 12 major planetary systems
+    - Used by 200+ trading houses across the Known Universe
+    - Featured in the Spacing Guild Technical Journal
+  ]
+)
+
+#cv-entry(
+  title: "Prescient Weather Prediction System",
+  location: "Personal Research",
+  date: "10190",
+  description: [
+    - Combined traditional meteorology with prescient vision capabilities
+    - Achieved 99.7% accuracy in desert storm prediction up to 6 months in advance
+    - Saved countless Fremen lives through early warning systems
+    - Awarded the Lisan al-Gaib Innovation Prize
+  ]
+)
+```
+
+# Certifications
+
+```{=typst}
+#cv-entry(
+  title: "Certified Mentat Analyst",
+  location: "Spacing Guild Institute",
+  date: "10190"
+)
+
+#cv-entry(
+  title: "Advanced Prescient Data Modeling",
+  location: "Bene Gesserit Sisterhood",
+  date: "10189"
+)
+
+#cv-entry(
+  title: "Holtzman Statistical Computing Specialist",
+  location: "House Ix Technical Academy",
+  date: "10188"
+)
+
+#cv-entry(
+  title: "Desert Survival and Data Collection",
+  location: "Fremen Sietch Certification Board",
+  date: "10191"
+)
+```
