@@ -1,6 +1,8 @@
 // Modern CV template for Typst, adapted from modern-cv
 // Based on the Awesome-CV LaTeX template
 
+#import "@preview/fontawesome:0.4.0": *
+
 #let script-size = 7.97224pt
 #let footnote-size = 8.50012pt
 #let small-size = 9.24994pt
@@ -48,7 +50,7 @@
   )
   
   // Set text properties
-  set text(font: ("Roboto", "Source Sans Pro"), size: normal-size, fill: dark-grey)
+  set text(font: ("Roboto", "Source Sans 3", "Arial", "Helvetica"), size: normal-size, fill: dark-grey)
   
   // Configure headings
   show heading.where(level: 1): it => {
@@ -102,27 +104,28 @@
     let contact-info = ()
     
     if email != none {
-      contact-info.push(link("mailto:" + email)[#email])
+      let clean-email = email.replace("\\@", "@").replace("~", " ")
+      contact-info.push([#fa-envelope() #link("mailto:" + clean-email)[#clean-email]])
     }
     
     if phone != none {
-      contact-info.push(phone)
+      contact-info.push([#fa-phone() #phone])
     }
     
     if github != none {
-      contact-info.push(link("https://github.com/" + github)[github])
+      contact-info.push([#fa-github() #link("https://github.com/" + github, github)])
     }
     
     if linkedin != none {
-      contact-info.push(link("https://linkedin.com/in/" + linkedin)[linkedin])
+      contact-info.push([#fa-linkedin() #link("https://linkedin.com/in/" + linkedin, linkedin)])
     }
     
     if website != none {
-      contact-info.push(link(website)[#website])
+      contact-info.push([#fa-globe() #link(website, website)])
     }
     
     if address != none {
-      contact-info.push(address)
+      contact-info.push([#fa-map-marker-alt() #address])
     }
     
     if contact-info.len() > 0 {
@@ -135,8 +138,7 @@
   }
   
   // Main content
-  set par(justify: true, leading: 0.6em)
-  show par: set block(spacing: 0.6em)
+  set par(justify: true, leading: 0.6em, spacing: 0.6em)
   
   body
 }
@@ -234,7 +236,7 @@
   )
   
   // Set text properties
-  set text(font: ("Roboto", "Source Sans Pro"), size: normal-size, fill: dark-grey)
+  set text(font: ("Roboto", "Source Sans 3", "Arial", "Helvetica"), size: normal-size, fill: dark-grey)
   
   // Configure links
   show link: it => {
@@ -255,23 +257,24 @@
     let contact-info = ()
     
     if email != none {
-      contact-info.push(link("mailto:" + email)[#email])
+      let clean-email = email.replace("\\@", "@").replace("~", " ")
+      contact-info.push([#fa-envelope() #link("mailto:" + clean-email)[#clean-email]])
     }
     
     if phone != none {
-      contact-info.push(phone)
+      contact-info.push([#fa-phone() #phone])
     }
     
     if github != none {
-      contact-info.push(link("https://github.com/" + github)[github])
+      contact-info.push([#fa-github() #link("https://github.com/" + github, github)])
     }
     
     if linkedin != none {
-      contact-info.push(link("https://linkedin.com/in/" + linkedin)[linkedin])
+      contact-info.push([#fa-linkedin() #link("https://linkedin.com/in/" + linkedin, linkedin)])
     }
     
     if website != none {
-      contact-info.push(link(website)[#website])
+      contact-info.push([#fa-globe() #link(website, website)])
     }
     
     if contact-info.len() > 0 {
@@ -331,8 +334,7 @@
   }
   
   // Main content
-  set par(justify: true, leading: 0.7em, first-line-indent: 0em)
-  show par: set block(spacing: 1em)
+  set par(justify: true, leading: 0.7em, first-line-indent: 0em, spacing: 1em)
   
   body
   
